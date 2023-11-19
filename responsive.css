@@ -1,0 +1,29 @@
+@media only screen and (max-width:1000px){
+    .navul{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 300px;
+        flex-direction: column;
+        transition: all .9s ease-out;
+    }
+    .berger{
+        display: block;
+    }
+    .searchbar{
+        text-align: center;
+    }
+    .fixheight{
+        height: 60px;
+    }
+    .visible{
+        opacity: 0;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+    .par1{
+        padding: 0;
+    }
+}
