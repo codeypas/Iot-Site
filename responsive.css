@@ -1,11 +1,22 @@
 @media only screen and (max-width:1000px){
     .navul{
         flex-direction: column;
+        
     }
     .navbar{
-        height: 300px;
+        height: 350px;
         flex-direction: column;
         transition: all .9s ease-out;
+        
+    }
+    .logo h2 a{
+        color: white;
+    }
+    .navul li a{
+        color: white;
+    }
+    #loginkey h3 a{
+        color: white;
     }
     .berger{
         display: block;
@@ -14,7 +25,7 @@
         text-align: center;
     }
     .fixheight{
-        height: 60px;
+        height: 70px;
     }
     .visible{
         opacity: 0;
@@ -25,5 +36,8 @@
     }
     .par1{
         padding: 0;
+    }
+    .searchbar{
+        flex-direction: column;
     }
 }

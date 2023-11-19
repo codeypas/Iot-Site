@@ -49,6 +49,24 @@ html{
 .searchbar{
     width: 40%;
     padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginkey{
+    font-size: 20px;
+    color: violet;
+    width: 10%;
+    padding: 0 10px;
+
+}
+
+#loginkey a{
+
+    text-align: center;
+    text-decoration: none;
+
 }
 
 /*berger*/
@@ -305,4 +323,5 @@ footer{
 
 .link a {
     color: blueviolet;
+    text-decoration: none;
 }
