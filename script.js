@@ -7,3 +7,9 @@ burger.addEventListener('click',()=>{
     searchbar.classList.toggle('visible');
     navbar.classList.toggle('fixheight');
 })
+
+// alert("result is out\nto see result visit blog")
+// result=document.getElementById("result");
+// alert.addEventListener('click',()=>{
+//     result.classList.toggle('reload');
+// })

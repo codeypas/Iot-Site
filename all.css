@@ -1,5 +1,6 @@
 :root{
-    --main--bg--color:white;
+    /* --main--bg--color:rgb(6, 12, 14); */
+    --main--bg--color:rgb(229, 232, 233);
 }
 
 .hovbtn:hover{

@@ -1,43 +1,87 @@
-@media only screen and (max-width:1000px){
-    .navul{
+@media only screen and (max-width:1000px) {
+    .navul {
         flex-direction: column;
-        
+
     }
-    .navbar{
+
+    .navbar {
         height: 350px;
         flex-direction: column;
         transition: all .9s ease-out;
-        
+
     }
-    .logo h2 a{
+
+    .logo h2 a {
         color: white;
     }
-    .navul li a{
+
+    .navul li a {
         color: white;
     }
-    #loginkey h3 a{
+
+    #loginkey h3 a {
         color: white;
     }
-    .berger{
+
+    .berger {
         display: block;
     }
-    .searchbar{
+
+    .searchbar {
         text-align: center;
     }
-    .fixheight{
+
+    .fixheight {
         height: 70px;
     }
-    .visible{
+
+    .visible {
         opacity: 0;
     }
 
-    .row{
+    .row {
         flex-direction: column;
+        
     }
-    .par1{
+    
+    .par1 {
         padding: 0;
     }
-    .searchbar{
+
+    .searchbar {
         flex-direction: column;
     }
+
+    .fig {
+        text-align: center;
+    }
+
+    .fig img {
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .sec2body {
+        flex-direction: column-reverse;
+        height: 500px;
+    }
+
+    .sec3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section3 {
+        margin: 20px;
+    }
+
+    .contact1{
+        flex-direction: column;
+    }
+    .gettouch{
+        flex-direction: column;
+    }
+
 }
